@@ -14,6 +14,8 @@ VisualID :: XID;
 // Opaque structs
 wl_surface         :: struct {}; // Opaque struct defined by Wayland
 wl_display         :: struct {}; // Opaque struct defined by Wayland
+ubm_device         :: struct {}; // Opaque struct defined by UBM (VK_SEC_ubm_surface)
+ubm_surface        :: struct {}; // Opaque struct defined by UBM
 xcb_connection_t   :: struct {}; // Opaque struct defined by xcb
 
 _screen_window     :: struct {}; // QNX
